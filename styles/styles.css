@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "Lora", serif;
+}
+
+/* Escoger todos los h3s */
+h3 {
+    color: #3F528C;
+}
+
+/* Escoger todos los ps */
+p {
+    color: #733D3D; 
+}
+
+/* Escoger el elemento que tenga este ID */
+#nav-list {
+    color: #733D3D;
+    background-color: #F2EA72;
+}
+
+/* Escoger todos los elementos que tengan esta CLASE */
+.title {
+    color:#3F528C;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* 1 rem = 16 px */
+#caja {
+    background-color: green;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkred;
+    width: 100px;
+    /* view width = ancho de mi vista */
+    height: 100px; 
+    /* view height = largo de mi vista*/
+    text-align: center;
+}

@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashitaka - Príncipe de los Emishi</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="lora-font">
     <!-- ¡Hola, Jagdish estuvo aquí! -->
     <header>
         <nav>
-            <h1>Ashitaka - Príncipe de los Emishi</h1>
-            <ul>
+            <h1 class="title">Ashitaka - Príncipe de los Emishi</h1>
+            <ul id="nav-list">
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="ashitaka.html">Ashitaka</a></li>
+                <li><a href="home.html">Ashitaka</a></li>
                 <li><a href="mononoke.html">Mononoke</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <img src="images/ashitaka.jpg"/>
-            <h3>El Príncipe Más Noble</h3>
+            <!-- Inline CSS / Inline styling-->
+            <img src="images/ashitaka.jpg" style="height: 250px; width: 600px"/>
+            <h3 class="title">El Príncipe Más Noble</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </section>
         <section>
-            <h3>Compañeros</h3>
+            <h2 class="title">Compañeros</h2>
             <ol>
                 <li>Princesa Monoke</li>
                 <li>Yakul</li>
@@ -32,7 +37,7 @@
             </ol>
         </section>
         <section>
-            <h4>¿Tienes preguntas sobre Ashitaka?</h4>
+            <h4 class="title">¿Tienes preguntas sobre Ashitaka?</h4>
             <form>
                 <label>Nombre:</label>
                 <input type="text"/>
@@ -49,6 +54,7 @@
                 <button>Enviar</button>
             </form>
         </section>
+        <p>HOLA SOY UN PARRAFO</p>
     </main>
     <footer>
         <p>&copy; 2025 Tributo a Ashitaka. Todos los Derechos Reservados.</p>
