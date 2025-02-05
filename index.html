@@ -1,63 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ashitaka - Príncipe de los Emishi</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-</head>
-<body class="lora-font">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="lora-font">
     <!-- ¡Hola, Jagdish estuvo aquí! -->
-    <header>
-        <nav>
-            <h1 class="title">Ashitaka - Príncipe de los Emishi</h1>
-            <ul id="nav-list">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="home.html">Ashitaka</a></li>
-                <li><a href="mononoke.html">Mononoke</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <!-- Inline CSS / Inline styling-->
-            <img src="images/ashitaka.jpg" style="height: 250px; width: 600px"/>
-            <h3 class="title">El Príncipe Más Noble</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </section>
-        <section>
-            <h2 class="title">Compañeros</h2>
-            <ol>
-                <li>Princesa Monoke</li>
-                <li>Yakul</li>
-                <li>Espíritus del bosque</li>
-            </ol>
-        </section>
-        <section>
-            <h4 class="title">¿Tienes preguntas sobre Ashitaka?</h4>
-            <form>
-                <label>Nombre:</label>
-                <input type="text"/>
-                <br/>
-                <br/>
-                <label>Email:</label>
-                <input type="email">
-                <br/>
-                <br/>
-                <label>Pregunta:</label>
-                <textarea></textarea>
-                <br/>
-                <br/>
-                <button>Enviar</button>
-            </form>
-        </section>
-        <p>HOLA SOY UN PARRAFO</p>
+    <div class="header">
+      <h1 class="title">Ashitaka - Príncipe de los Emishi</h1>
+      <div class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="home.html">Ashitaka</a>
+        <a href="mononoke.html">Mononoke</a>
+      </div>
+    </div>
+    <main class="main">
+      <img class="hero-image" src="images/ashitaka.jpg" />
+      <div class="main-text">
+        <h3 class="title">El Príncipe Más Noble</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+
+      <section class="compas">
+        <h2>Compañeros</h2>
+        <div class="compas-columnas">
+          <div class="compas-column">
+            <h3>Princesa Monoke</h3>
+            <img src="images/mononoke.jpg" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="compas-column">
+            <h3>Yakul</h3>
+            <img src="images/yakul.jpg" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="compas-column">
+            <h3>Espíritu del bosque</h3>
+            <img src="images/spirit.jpg" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="form-section">
+        <img src="images/yakul-ashitaka.webp" />
+                <form>
+          <h2 class="title">¿Tienes preguntas sobre Ashitaka?</h4>
+          <label>Nombre:</label>
+          <input type="text" />
+          <br />
+          <br />
+          <label>Email:</label>
+          <input type="email" />
+          <br />
+          <br />
+          <label>Pregunta:</label>
+          <textarea></textarea>
+          <br />
+          <br />
+          <button>Enviar</button>
+        </form>
+      </section>
     </main>
     <footer>
-        <p>&copy; 2025 Tributo a Ashitaka. Todos los Derechos Reservados.</p>
+      <p>&copy; 2025 Tributo a Ashitaka Collective. Todos los Derechos Reservados.</p>
     </footer>
-</body>
+  </body>
 </html>
